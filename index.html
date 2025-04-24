@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chatframe de Estrella</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js" defer=""></script>
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <div class="button-container">
         <button id="toggleButton">ON/OFF</button>
     </div>
-    <div id="container" style="perspective: 600px;">
+    <div id="container">
         <!-- <img id="logo" src="https://i.postimg.cc/Dw8fCk1z/image.png" alt="Logo"> -->
-    <div style="transform: translate3d(55.0162px, -96.3909px, 194.136px) rotate(37.5368deg) rotateY(0.0552deg) rotateX(0.1342deg);" class="dot"></div><div style="transform: translate3d(1358.62px, -129.455px, 135.083px) rotate(0.1285deg) rotateY(1.2641deg) rotateX(1.8938deg);" class="dot"></div><div style="transform: translate3d(724.163px, -99.6371px, -53.4324px) rotate(4.5779deg) rotateY(58.9758deg) rotateX(312.543deg);" class="dot"></div><div style="transform: translate3d(1717.29px, 794.388px, 151.499px) rotate(53.3731deg) rotateY(185.125deg) rotateX(197.927deg);" class="dot"></div><div style="transform: translate3d(225.883px, 362.66px, -163.382px) rotate(5.3163deg) rotateY(0.7588deg) rotateX(124.799deg);" class="dot"></div><div style="transform: translate3d(678.388px, 777.837px, -83.2751px) rotate(44.6deg) rotateY(28.3026deg) rotateX(22.4093deg);" class="dot"></div><div style="transform: translate3d(1252.08px, -76.5451px, -7.7314px) rotate(39.362deg) rotateY(13.3079deg) rotateX(6.5041deg);" class="dot"></div><div style="transform: translate3d(232.742px, -21.2471px, -36.9117px) rotate(28.1051deg) rotateY(1.4689deg) rotateX(0.997deg);" class="dot"></div><div style="transform: translate3d(844.37px, 13.4039px, 44.3603px) rotate(52.7517deg) rotateY(104.334deg) rotateX(138.798deg);" class="dot"></div><div style="transform: translate3d(1805.21px, 210.224px, -110.51px) rotate(37.2939deg) rotateY(95.0337deg) rotateX(168.124deg);" class="dot"></div><div style="transform: translate3d(694.025px, 752.092px, 63.1435px) rotate(0.6791deg) rotateY(26.3336deg) rotateX(103.764deg);" class="dot"></div><div style="transform: translate3d(934.2px, 169.288px, -30.8881px) rotate(13.3577deg) rotateY(32.1576deg) rotateX(58.7511deg);" class="dot"></div><div style="transform: translate3d(1690.79px, 899.331px, -130.666px) rotate(1.3466deg) rotateY(9.5522deg) rotateX(24.3488deg);" class="dot"></div><div style="transform: translate3d(1738.28px, 353.332px, -126.94px) rotate(11.5939deg) rotateY(65.6384deg) rotateX(44.984deg);" class="dot"></div><div style="transform: translate3d(1263.45px, -174.57px, -55.1041px) rotate(17.2034deg) rotateY(94.6179deg) rotateX(88.3961deg);" class="dot"></div><div style="transform: translate3d(640.209px, -161.666px, 58.218px) rotate(8.9904deg) rotateY(280.557deg) rotateX(264.398deg);" class="dot"></div><div style="transform: translate3d(1921.08px, 246.448px, 107.138px) rotate(50.2777deg) rotateY(19.4896deg) rotateX(3.2779deg);" class="dot"></div><div style="transform: translate3d(844.567px, 632.008px, 159.026px) rotate(4.7701deg) rotateY(58.8395deg) rotateX(8.926deg);" class="dot"></div><div style="transform: translate3d(1316.41px, 175.053px, 12.3435px) rotate(111.199deg) rotateY(35.0781deg) rotateX(0.9674deg);" class="dot"></div><div style="transform: translate3d(1178.19px, -68.282px, 34.0704px) rotate(8.4297deg) rotateY(0.2386deg) rotateX(0.7145deg);" class="dot"></div><div style="transform: translate3d(1025.85px, 305.462px, -13.5504px) rotate(0.6537deg) rotateY(0.3792deg) rotateX(0.9125deg);" class="dot"></div><div style="transform: translate3d(1919.54px, 995.609px, 108.734px) rotate(52.2563deg) rotateY(13.5074deg) rotateX(5.1396deg);" class="dot"></div><div style="transform: translate3d(564.881px, 103.051px, 21.777px) rotate(13.8669deg) rotateY(125.864deg) rotateX(146.409deg);" class="dot"></div><div style="transform: translate3d(1801.09px, 985.601px, -31.2561px) rotate(38.4029deg) rotateY(72.1824deg) rotateX(80.2283deg);" class="dot"></div><div style="transform: translate3d(344.876px, 946.419px, 192.891px) rotate(99.3757deg) rotateY(315.507deg) rotateX(140.447deg);" class="dot"></div><div style="transform: translate3d(902.009px, -167.567px, -56.5781px) rotate(46.018deg) rotateY(1.7943deg) rotateX(1.5883deg);" class="dot"></div><div style="transform: translate3d(1275.27px, 435.395px, -70.0657px) rotate(2.3931deg) rotateY(277.852deg) rotateX(47.6389deg);" class="dot"></div><div style="transform: translate3d(1879.21px, 812.098px, -55.171px) rotate(4.3558deg) rotateY(172.769deg) rotateX(139.24deg);" class="dot"></div><div style="transform: translate3d(483.244px, 541.873px, -134.269px) rotate(29.8203deg) rotateY(191.242deg) rotateX(171.601deg);" class="dot"></div><div style="transform: translate3d(411.452px, 2.9611px, -6.3656px) rotate(136.8deg) rotateY(32.9885deg) rotateX(47.2298deg);" class="dot"></div></div>
+    </div>
 
-
-</body></html>
+</body>
+</html>
